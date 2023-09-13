@@ -1,0 +1,49 @@
+body{
+    background-color: yellow;
+}
+
+.nav a{
+    position: absolute;
+    text-decoration: none ;
+    color: blue;
+    padding: 10px;
+    margin-left: 50px;
+    width: 150px;
+    border-right: 20px solid black;
+    background-color: white;
+    font-size: large;
+    cursor:pointer;
+    
+    
+}
+
+.doc{
+    margin-left: 270px;
+    margin-top: 30px;
+    color: purple;
+    font-size: 18pt;
+
+}
+address{
+    border-top: 1pt dotted purple;
+    margin-left: 270px;
+    font-size: 16pt;
+    padding-top: 20px;
+    color: purple;
+    width: 450pt;
+}
+
+#home{
+    top: 50px;
+    color: purple;
+    
+}
+#musing{
+    top: 100px;
+}
+#town{
+    top:150px;
+}
+#link{
+    top: 200px;
+}
