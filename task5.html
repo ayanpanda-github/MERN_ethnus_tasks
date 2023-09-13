@@ -3,9 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML task 5</title>
 </head>
 <body>
-    
+    <h1 align="center"><b><font color="blue">Registration Form</font></b></h1> 
+    <form action=""  >
+        <table align="center" border="1" >
+            <tr>
+                <td width="200px"><label for="firstname">First Name</label></td>
+                <td width="500"><input type="text" id="firstname" size="70"></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last Name</label></td>
+                <td><input type="text" id="lastname" size="70"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" size="70"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" size="70"></td>
+            </tr>
+            <tr>
+                <td><label for="repassword">RE-enter Password</label></td>
+                <td><input type="password" id="repassword"size="70"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" id="gender" value="male"size="70"><label for="gender">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="gender" value="Female"><label for="gender">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="number" name="age" id="age" ></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number</label></td>
+                <td><input type="tel" id="phone" size="70"></td>
+            </tr>
+            <tr>
+                <td height="100px"><label for="address">Address</label></td>
+                <td ><textarea rows="6" cols="65" name="address" id="address"></textarea> 
+                </td>
+            </tr>       
+            <tr>
+                <td><label for="state">State</label></td>
+                <td><input type="text" id="state" size="70"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td><select name="country" id="country"><option value="placeholder">Choose your country</option></select></td>
+            </tr>
+            <tr>
+                <td><label for="language">Language known</label></td>
+                <td><input type="checkbox" id="language"><label for="english">English</label><input type="checkbox">Kannada <input type="checkbox">Hindi <input type="checkbox">Telugu</td>
+            </tr>
+            <tr >
+                <td align="left"colspan="2"><input type="checkbox">Hereby U declare all the given details are true</td>
+            </tr>
+            <tr >
+                <td align="right" colspan="2">log in to <a href="#">Ethnus</a>website</td>
+            </tr>
+        </table>
+        
+    </form>
+    <br>
+    <form align="center" ><button type="submit" >Register</button><form></form>
 </body>
 </html>
